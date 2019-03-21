@@ -2,7 +2,7 @@
   "name": "baru",
   "version": "0.1.0",
   "private": true,
-  "homepage ": "https://rizkygin.github.io/baru2/",
+  "homepage ": "https://rizkygin.github.io/baru/",
   "dependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
