@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  a,
+  a:visited {
+    outline: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .nav {
+    width: 500px;
+    margin: 20px auto;
+    max-width: 48em;
+    border: 1px solid #333;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+  }
+
+  .rizky {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: background .15s ease-in;
+  }
+
+  .rizky:hover {
+    background: #ddd;
+  }
+  .Merah.is-active{
+    background: #f44242;
+    text-align: center;
+  }
+  .Merah:hover {
+    background: #f44242;
+  }
+  .Kuning.is-active{
+    background: #f4d341;
+  }
+  .Kuning:hover {
+    background: #f4d341;
+  }
+  .Hijau.is-active{
+    background: #4bd648;
+  }
+  .Hijau:hover {
+    background: #4bd648;
+  }
+  .Biru.is-active{
+    background: #379dbf;
+  }
+  .Biru:hover {
+    background: #379dbf;
+  }
+
+  .rizky.is-active {
+    background: #ddd;
+  }
+
+  .info {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .selected {
+    margin-left: 5px;
+    padding: 5px 10px;
+    vertical-align: middle;
+    border-radius: 4px;
+    background: #ddd;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .selected.Merah{
+    background: #f44242;
+    text-align: center;
+  }
+  .selected.Kuning{
+    background: #f4d341;
+    text-align: center;
+  }
+  .selected.Hijau{
+    background: #4bd648;
+    text-align: center;
+  }
+  .selected.Biru{
+    background: #379dbf;
+    text-align: center;
+  }
